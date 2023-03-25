@@ -1,0 +1,30 @@
+body{
+    background-color: burlywood;
+    color: mediumpurple;
+}
+img{
+    width: 50%;
+    height: 25%;
+}
+.container{
+    background-color: cornflowerblue;
+    color: black;
+    display: flex;
+
+}
+.container>div{
+    width: auto;
+    margin: 20px;
+    
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    
+}
+.grid-container>div{
+    margin: 20px;
+    padding: 20px;
+    border: 5px solid white;
+
+}
